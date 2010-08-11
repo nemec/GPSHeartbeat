@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" android:layout_height="wrap_content"><RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="On" android:id="@+id/RadioButtonOn"></RadioButton>
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Off" android:id="@+id/RadioButtonOff"></RadioButton>
+</RadioGroup>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/intervalText" android:text="Pulse Interval:"></TextView>
+
+
+
+
+
+
+
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SpinnerInterval"></Spinner>
+</LinearLayout>
