@@ -7,7 +7,7 @@
 <TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/hello"
+    android:text="@string/activity_title"
     />
 <RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" android:layout_height="wrap_content"><RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="On" android:id="@+id/RadioButtonOn"></RadioButton>
 <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Off" android:id="@+id/RadioButtonOff"></RadioButton>
@@ -20,5 +20,5 @@
 
 
 
-<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SpinnerInterval"></Spinner>
+<Spinner android:prompt="@string/spinnerPrompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SpinnerInterval"></Spinner>
 </LinearLayout>

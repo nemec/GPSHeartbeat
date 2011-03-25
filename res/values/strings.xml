@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Service status:</string>
     <string name="app_name">GPSHeartbeat</string>
+<string name="spinnerPrompt">Pulse Interval</string>
+<string name="prefs_file">HeartbeatPrefs</string>
+
+
+<string name="interval_key">Interval_key</string>
+<string name="activity_title">Service Status:</string>
+<string name="server_ip_key">server_ip_key</string>
+<string name="server_port_key">server_port_key</string>
+
+
+
 </resources>
